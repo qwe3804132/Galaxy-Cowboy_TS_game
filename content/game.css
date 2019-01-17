@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Sporting Grotesque';
+    src: url('../assets/fonts/sportinggrotesque-regular.woff2') format('woff2'),
+         url('../assets/fonts/sportinggrotesque-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body {
+    background: rgb(150,140,130);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+canvas {
+    background: rgb(10,30,60);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display: block;
+    margin: 100px auto;
+}
+
+footer {
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+}

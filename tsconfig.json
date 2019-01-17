@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "target": "es5",
+        "sourceMap": true,
+        "outFile": "./scripts/build/game.js"
+    },
+    "include": [
+        "scripts/config/*.ts",
+        "scripts/glm/*.ts",
+        "scripts/ui/image.ts",
+        "scripts/ui/label.ts",
+        "scripts/ui/*.ts",
+        "scripts/objects/gameobject.ts",
+        "scripts/objects/obstacle.ts",
+        "scripts/objects/*.ts",
+        "scripts/animate/animate.ts",
+        "scripts/animate/enemy.ts",
+        "scripts/animate/*.ts",
+        "scripts/managers/*.ts",
+        "scripts/scenes/start.ts",
+        "scripts/scenes/play.ts",
+        "scripts/scenes/*.ts",
+        "scripts/core/*.ts",
+    ]
+}
